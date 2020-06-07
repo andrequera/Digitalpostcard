@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    font-family: 'Caveat', cursive;
+}
+#general
+  {
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    /* padding:20px; */
+    padding: 25px;
+  }
+#postal{
+    font-size: 30px;
+    float: left;
+    width:50%;
+}
+img {
+    float: right;
+ }
+
+ #send
+{
+    font-size: 20px;
+    float:right;
+    width: 50%;
+      
+}
+
+
+input[type=text] 
+    {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid gray;
+     
+      }
+     
+
+  #postal, #send 
+  {
+    font-size: 1rem;
+  }
+  
+  #general1
+  {
+    width: 100%;
+    height: 50px;
+  }
+  #general2
+  {
+    width: 100%;
+    height: 200px;
+  }
+
+  #boton
+  {
+      width: 100%;
+      height: 50px;
+      text-align: center;
+  }
+  .mandar 
+  /*texto dentro del boton */
+  {
+    padding: 10px;
+    border-radius: 4px;
+    background-color:grey;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    
+  }
+  .mandar:hover{
+    background-color: blueviolet;
+  }
+  
